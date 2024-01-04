@@ -1,6 +1,4 @@
 
-
-
 import Breadcrumbs from "../../components/CompAssests/BreadCrumbs.jsx";
 import AddBuildingModal from "./AddBuildingModal.jsx";
 import React from "react";
@@ -239,17 +237,8 @@ const BuildingDashBoard = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
-
-
-
-
-
         </div>
     )
-
-
 }
-
 export default BuildingDashBoard;

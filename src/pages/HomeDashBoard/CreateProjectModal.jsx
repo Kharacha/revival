@@ -95,7 +95,6 @@ function CreateProjectModal() {
                                 placeholder="Type a project name"
                                 value={project.projectName}
                                 onChange={handleInputChange}
-                                required
                             />
                         </div>
 
