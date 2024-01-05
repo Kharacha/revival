@@ -3,13 +3,13 @@ import { initializeApp } from "firebase/app";
 import {getAuth, GoogleAuthProvider} from "firebase/auth"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyADh-GzWc1uWxky4PAZlbg83x_94PMV15o",
-    authDomain: "revivalestates-40767.firebaseapp.com",
-    projectId: "revivalestates-40767",
-    storageBucket: "revivalestates-40767.appspot.com",
-    messagingSenderId: "782955405208",
-    appId: "1:782955405208:web:259b86ff362c3ac42695ed",
-    measurementId: "G-2QY4YTRF9N"
+    apiKey: "AIzaSyDo67icjxWCNDnwlvEpJsE2vmKqIu13FJA",
+    authDomain: "revival-estates-login.firebaseapp.com",
+    projectId: "revival-estates-login",
+    storageBucket: "revival-estates-login.appspot.com",
+    messagingSenderId: "442227475107",
+    appId: "1:442227475107:web:1c98eb98594fce57993516",
+    measurementId: "G-MKBXD256FN"
 };
 
 const app = initializeApp(firebaseConfig);
