@@ -5,8 +5,6 @@ import React from "react";
 import { BsBuildingFillGear } from "react-icons/bs";
 import { FaBuildingCircleXmark } from "react-icons/fa6";
 
-
-
 const BuildingDashBoard = () => {
 
     return (
