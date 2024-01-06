@@ -2,9 +2,7 @@ import { Dropdown } from 'flowbite-react';
 import { Checkbox } from "@mui/joy";
 import {useState} from "react";
 
-
 function BuildingFilter() {
-
     const filters = [
         {
             Name: 'Space Type',
@@ -46,30 +44,8 @@ function BuildingFilter() {
                         'Resort',
                     ],
                 },
-            ],
-        },
-
-        {
-            Name: 'Specialty',
-            subFilter: [
-                'Airport',
-                'Amusement Park',
-                'Bowling Alley',
-                'Car Wash',
-                'Casino',
-                'Church',
-                'Civic Center Club',
-                'Funeral Home',
-                'Hospital',
-                'Marina',
-                'Parking Lot',
-                'Private School',
-                'Sports Center Arena',
-                'Sports Recreation',
-                'Theater',
             ]
         },
-
         {
             Name: 'Listed As',
             subFilter: [
@@ -77,7 +53,6 @@ function BuildingFilter() {
                 'Purchase',
             ]
         },
-
         {
             Name: 'Listing Status',
             subFilter: [
@@ -159,7 +134,6 @@ function BuildingFilter() {
             </div>
         </div>
     ));
-
 
     return (
         <div className="flex flex-wrap gap-4 w-auto">

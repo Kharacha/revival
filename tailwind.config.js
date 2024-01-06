@@ -8,6 +8,7 @@ export default {
   ],
   theme: {
     extend: {
+      darkMode:'class',
       colors: {
         logoBlue: '#146CA3',
         logoHover: '#1881c2'

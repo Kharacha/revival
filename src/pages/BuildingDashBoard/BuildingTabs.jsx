@@ -439,4 +439,4 @@ function BuildingTabs() {
         </div>
     );
 }
-export default BuildingTabs
+export default BuildingTabs;
